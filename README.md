@@ -1,3 +1,5 @@
+**Codes for reproduction of results in paper "Machine Learning-Driven Real-time Identification of Large space Building Fires and Forecast of Temperature Development"**
+
 **1. pretrain.py**
 pretrain the model using classical fire dataset
 save the best model as best_model_pretrain.h5
@@ -17,3 +19,6 @@ evaluate the model performance using fire test 1
 **5. test2.py**
 locate and repair damaged thermocouples in fire test 2
 evaluate the model performance using fire test 2
+
+Note that the dataset for classic fire models is too large for GitHub and can be found in the following Google Drive link:
+https://drive.google.com/file/d/1vhYTlVkAu-98n8NTZwoOSrGbPcflBGre/view?usp=drive_link
